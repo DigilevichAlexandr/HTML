@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style>
+        td {
+            padding-left:20px;
+            padding-right:20px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table border="1" cellpadding="2">
+            <tr>
+                <td colspan="3"><h1>Персональные данные</h1></td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>ФИО</h2>
+                    <div>Дигилевич Александр Григорьевич</div>
+                    <h2>Дата рождения</h2>
+                    <div>12.12.1990</div>
+                </td>
+                <td>
+                    <img src="~/Images/Лицо на мой сайт.jpg" /></td>
+                <td>
+                    <h2>Пол</h2>
+                    <div>м</div>
+                    <h2>Семейное положение</h2>
+                    <div>не женат</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h1>Данные об образовании</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Университет</h2>
+                    <div>Белорусского государственного университета информатики и радиоэлектроники</div>
+                </td>
+                <td>
+                    <h2>Факультет</h2>
+                    <div>КСиС</div>
+                </td>
+                <td>
+                    <h2>Специальность</h2>
+                    <div>ВМСиС</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h1>Данные о дополнительном образовании</h1>
+                    <h2>Курсы</h2>
+                    <div>Курсы английского(продвинутый уровень).</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h1>Данные об опыте работы</h1>
+                    <div>Системный консультант в Wargaming</div>
+                </td>
+                <td>
+                    <h1>Знание иностранных языков</h1>
+                    <ul>Китайский</ul>
+                    <ul>Финский</ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h1>Контактные данные</h1>
+                    <h2>Адрес</h2>
+                    <div>ул. Дунина марцинкевича д. 2 корп. 2 кв. 98</div>
+                    <h2>Телефоны</h2>
+                    <ol>44 5533637</ol>
+                    <ol>17 3968241</ol>
+                    <h2>e-mail</h2>
+                    <div>digilevich.alexandr@gmail.com</div>
+                    <h2>skype id</h2>
+                    <div>digilevich.alexandr</div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
