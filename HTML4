@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />    
+</head>
+<body>
+    <header style="background-color:#3b6e70;height:80px;padding:5pt;border:3px solid;border-color:black;">
+        <span>
+            <img src="~/Images/imgres.png" alt="logo" style="height:60px" />
+            <a href="http://htmlbook.ru"><img style="width:177px;height:60px; background: url('../../Images/images.jpg') -12px -13px;" /></a>
+            <a href="http://htmlbook.ru"><img style="width:177px;height:60px; background: url('../../Images/images.jpg') -12px 74px;" /></a>
+            <a href="http://htmlbook.ru"><img style="width:177px;height:60px; background: url('../../Images/images.jpg') -12px 159px;" /></a>
+            <a href="http://htmlbook.ru"><img style="width:177px;height:60px; background: url('../../Images/images.jpg') -12px 159px;" /></a>
+
+            <a href="http://htmlbook.ru" style="float:right"><img src="~/Images/right2.jpg" /></a>
+            <a href="http://htmlbook.ru" style="float:right"><img src="~/Images/right1.jpg" style="right:50px" /></a>
+        </span>
+    </header>
+    <table>
+        <tr>
+            <td>
+                <section role="main" style="text-align: justify;background-color:#ffd800;border:3px solid;border-color:black;height:500px;overflow:auto">
+                    <h1>Title</h1>
+                    <img src="~/Images/imgres.png" alt="IMAGE" style="height:100px;width:150px;float:left;margin:0px 7px 7px 0" />
+                    Язык HTML был разработан британским учёным Тимом Бернерсом-Ли приблизительно в 1986—1991 годах в стенах ЦЕРНа в Женеве в Швейцарии. HTML создавался как язык для обмена научной и технической документацией, пригодный для использования людьми, не являющимися специалистами в области вёрстки. HTML успешно справлялся с проблемой сложности SGML путём определения небольшого набора структурных и семантических элементов — дескрипторов. Дескрипторы также часто называют «тегами». С помощью HTML можно легко создать относительно простой, но красиво оформленный документ. Помимо упрощения структуры документа, в HTML внесена поддержка гипертекста. Мультимедийные возможности были добавлены позже.
+                    Изначально язык HTML был задуман и создан как средство структурирования и форматирования документов без их привязки к средствам воспроизведения (отображения). В идеале, текст с разметкой HTML должен был без стилистических и структурных искажений воспроизводиться на оборудовании с различной технической оснащённостью (цветной экран современного компьютера, монохромный экран органайзера, ограниченный по размерам экран мобильного телефона или устройства и программы голосового воспроизведения текстов). Однако современное применение HTML очень далеко от его изначальной задачи. Например, тег &lt;TABLE&gt;
+                    предназначен для создания в документах таблиц, но часто используется и для оформления размещения элементов на странице. С течением времени основная идея платформонезависимости языка HTML была принесена в жертву современным потребностям в мультимедийном и графическом оформлении.
+
+                    </br>
+                    <b style="float:right">еще текст</b>
+                </section>
+            </td>
+            <td>
+                <aside role="complementary" style="text-align: justify;background-color:#b6ff00;border:3px solid;border-color:black;height:500px; background: whitesmoke;  overflow: scroll ;">
+                    <div style="padding:3px">
+                        <h1 style="text-decoration:underline;">Title</h1>
+                        CSS (англ. Cascading Style Sheets — каскадные таблицы стилей) — формальный язык описания внешнего вида документа, написанного с использованием языка разметки.
+                        Преимущественно используется как средство описания, оформления внешнего вида веб-страниц, написанных с помощью языков разметки HTML и XHTML, но может также применяться к любым XML-документам, например, к SVG или XUL.
+                        </br>
+                        <b style="float:right">еще текст</b>
+
+                        <h1 style="text-decoration:underline;">Title</h1>
+                        CSS (англ. Cascading Style Sheets — каскадные таблицы стилей) — формальный язык описания внешнего вида документа, написанного с использованием языка разметки.
+                        Преимущественно используется как средство описания, оформления внешнего вида веб-страниц, написанных с помощью языков разметки HTML и XHTML, но может также применяться к любым XML-документам, например, к SVG или XUL.
+                        </br>
+                        <b style="float:right">еще текст</b>
+
+                        <h1 style="text-decoration:underline;">Title</h1>
+                        CSS (англ. Cascading Style Sheets — каскадные таблицы стилей) — формальный язык описания внешнего вида документа, написанного с использованием языка разметки.
+                        Преимущественно используется как средство описания, оформления внешнего вида веб-страниц, написанных с помощью языков разметки HTML и XHTML, но может также применяться к любым XML-документам, например, к SVG или XUL.
+                        </br>
+                        <b style="float:right">еще текст</b>
+                    </div>
+                </aside>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <footer style="background-color:#0094ff;border:3px solid;border-color:black;overflow:auto;">
+                    <div style="width:800px;text-align: justify;-webkit-column-count:3;-webkit-column-gap:10px;-webkit-column-width:200px;-webkit-column-rule:none;">
+                        <p style="">
+                            Текст в несколько колонок давно уже применяется в издательском деле при вёрстке газет, журналов и книг. Человеку комфортнее читать текст определённой ширины, колонки как раз и обеспечивают разбиение большого текста на столбцы заданного размера. На сайтах это не всегда имеет смысл делать из-за ограниченности высоты окна браузера. Читателю вначале придётся прокрутить одну колонку вниз до конца, а затем вернуться наверх к началу следующей колонки, что довольно неудобно. Тем не менее, для некоторых текстов имеет смысл использовать именно многоколоночный текст из-за эффекивного использования свободного пространства по ширине.
+                            Следует пояснить, что такое «оптимальное число» и «оптимальная ширина». Свойство column-count задаёт не точное количество колонок, а скорее желаемое. Браузер постарается разбить текст именно на столько колонок, но при уменьшении размеров окна будет сокращать число колонок, чтобы сохранить комфортность чтения. Аналогично обстоит и с шириной. Свойство column-width указывает минимальную ширину колонки, при этом браузер это значение может проигнорировать, если размер окна недостаточен для обеспечения заданной ширины колонок.
+                            
+                    </div><img alt="copyrights" style="height:100px;width:150px;float:left ;margin:0px 7px 7px 0" /></p>
+
+                    <img src="~/Images/fb_icon_325x325.png"  style="height:100px;width:150px;float:right ;margin:0px 7px 7px 0"/>
+                    <img src="~/Images/ios_homescreen_icon.png"  style="height:100px;width:150px;float:right ;margin:0px 7px 7px 0" />
+                </footer>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
